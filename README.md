@@ -37,9 +37,9 @@ The prototype validates the group’s network design by demonstrating functional
 |------|--------------|------|
 | Firewall Ruleset | nftables segmentation configuration | [`firewall.sh`](./firewall.sh) |
 | DNS Setup Script | Local DNS + DHCP configuration | [`updated-dns.sh`](./updated-dns.sh) |
-| Firewall Rules Output | Screenshot of active nftables configuration | ![Ruleset](./nft_ruleset.png) |
-| DNS Forward Lookup | `dig @localhost server1.admin.local A` result | ![DNS Forward](./dns_a_record_query.png) |
-| DNS Reverse Lookup | `dig -x 192.168.10.10` reverse test | ![DNS Reverse](./dns_reverse_query.png) |
+| Firewall Rules Output | Screenshot of active nftables configuration | ![Ruleset](.03_TestEvidence/nft_ruleset.png) |
+| DNS Forward Lookup | `dig @localhost server1.admin.local A` result | ![DNS Forward](.03_TestEvidence/dns_a_record_query.png) |
+| DNS Reverse Lookup | `dig -x 192.168.10.10` reverse test | ![DNS Reverse](.03_TestEvidence/dns_reverse_query.png) |
 
 ---
 
