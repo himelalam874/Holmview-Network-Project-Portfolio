@@ -1,0 +1,42 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: true
+    enp0s8: {}
+  vlans:
+    vlan10:
+      id: 10
+      link: enp0s8
+      addresses: [10.10.10.1/24]
+
+    vlan20:
+      id: 20
+      link: enp0s8
+      addresses: [10.10.20.1/24]
+
+    vlan30:
+      id: 30
+      link: enp0s8
+      addresses: [10.10.30.1/22]
+
+    vlan40:
+      id: 40
+      link: enp0s8
+      addresses: [10.10.40.1/24]
+
+    vlan50:
+      id: 50
+      link: enp0s8
+      addresses: [10.10.50.1/24]
+
+    vlan60:
+      id: 60
+      link: enp0s8
+      addresses: [10.10.60.1/24]
+
+    vlan70:
+      id: 70
+      link: enp0s8
+      addresses: [10.10.70.1/25]

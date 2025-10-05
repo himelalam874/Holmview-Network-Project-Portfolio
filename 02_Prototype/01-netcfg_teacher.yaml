@@ -1,0 +1,13 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3: {}
+  vlans:
+    vlan70:
+      id: 70
+      link: enp0s3
+      addresses: [10.10.70.100/25]
+      gateway4: 10.10.70.1
+      nameservers:
+        addresses: [1.1.1.1, 8.8.8.8]
