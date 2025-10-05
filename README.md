@@ -22,6 +22,14 @@ It highlights **VLAN segmentation**, **firewall policy enforcement with nftables
 | Test evidence – DNS PTR | `dig -x 192.168.10.10` reverse lookup | [`03_TestEvidence/dns_reverse_query.png`](./03_TestEvidence/dns_ptr_query.png) |
 
 > Add additional configs or screenshots (e.g., `netplan` YAMLs, Packet Tracer diagrams) as the project evolves.
+##🔹 Tools Used
+
+Ubuntu Server • nftables • BIND/dnsmasq (per script) • VirtualBox • Wireshark • draw.io
+
+##🔹 Author
+
+Zahidul Alam Himel
+Bachelor of IT (Cyber Security) — CQU
 
 ## 🔹 Quick Re-run (Lab)
 1) **Firewall VM** (Ubuntu Server 22.04)
@@ -29,3 +37,4 @@ It highlights **VLAN segmentation**, **firewall policy enforcement with nftables
 sudo bash 02_Prototype/firewall.sh
 sudo systemctl enable --now nftables
 sudo nft list ruleset
+
