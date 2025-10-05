@@ -21,7 +21,6 @@ It highlights **VLAN segmentation**, **firewall policy enforcement with nftables
 | Test evidence – DNS A | `dig @localhost server1.admin.local A` | [`03_TestEvidence/dns_a_record_query.png`](./03_TestEvidence/dns_a_record_query.png) |
 | Test evidence – DNS PTR | `dig -x 192.168.10.10` reverse lookup | [`03_TestEvidence/dns_reverse_query.png`](./03_TestEvidence/dns_ptr_query.png) |
 
-> Add additional configs or screenshots (e.g., `netplan` YAMLs, Packet Tracer diagrams) as the project evolves.
 
 ##🔹 **Tools Used**
 
