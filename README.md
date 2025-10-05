@@ -23,11 +23,11 @@ It highlights **VLAN segmentation**, **firewall policy enforcement with nftables
 
 > Add additional configs or screenshots (e.g., `netplan` YAMLs, Packet Tracer diagrams) as the project evolves.
 
-##🔹 Tools Used
+##🔹 **Tools Used**
 
 Ubuntu Server • nftables • BIND/dnsmasq (per script) • VirtualBox • Wireshark • draw.io
 
-##🔹 Author
+##🔹 **Author**
 
 Zahidul Alam Himel
 Bachelor of IT (Cyber Security) — CQU
